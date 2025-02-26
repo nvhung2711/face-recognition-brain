@@ -70,7 +70,7 @@ function App() {
     setImageUrl(input);
 
     if(input) {
-      fetch('http://localhost:3001/image', {
+      fetch('https://face-recognition-brain-api-vp7d.onrender.com/image', {
         method: 'put',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({

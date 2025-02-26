@@ -24,7 +24,7 @@ const Register = ({onRouteChange, loadUser}) => {
             setFill(true);
         } else {
             setFill(false);
-            fetch('http://localhost:3001/register', {
+            fetch('https://face-recognition-brain-api-vp7d.onrender.com/register', {
                 method: 'post',
                 headers: {
                     'Content-type': 'application/json'
